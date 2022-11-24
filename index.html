@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão Leiteira</title>
+  <!-- design -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- script icon -->
+  <script src="https://kit.fontawesome.com/d41f7150e4.js" crossorigin="anonymous"></script>
+  <!-- script JS -->
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <!--cabeçalho-->
+  <header id="title-container">
+    <div id="logo">
+      <img src="img/Logo_PNG.png" alt="gestão leiteira_logo">
+    </div>
+  </header>
+
+  <!--interação-->
+    <div id="boxs-container">
+      <div id="description">
+        <h2>Informe os dados a seguir:</h2>
+      </div>
+      <div class="boxs-content">
+        <input type="number" placeholder="Gastos no mês(R$):" id="gasto" />
+        <input type="number" placeholder="Cotação do leite(R$):" id="preco" />
+        <input type="number" placeholder="Litros de leite produzidos:" id="producao" />
+        <button id="calc">Calcular</button>
+        <input type="text" placeholder="Lucro no mês(R$):" id="resultado" disabled />
+      </div>
+    </div>
+
+  <!-- rodapé -->
+  <footer>
+    <div id="footer">
+      <div id="container">
+        <div class="sobre-nos">
+          <h2>Sobre Nós</h2>
+           <p>Somos uma empresa com o foco de ajudar os pequenos produtores rurais a facilitar o seu agronegócio
+            de forma que eles consigam melhorar a acertividade dos seus lucros.
+           </p>
+        </div>
+        <!-- contact -->
+        <div class="contact">
+          <h2>Contato</h2>
+          <p>contatogestãogalak@gmail.com</p>
+          <p>999999999</p>
+        </div>
+        <!-- end contact -->
+        <!-- form -->
+        <div class="form">
+          <h2>Inscreva-se</h2>
+          <div class="form-sub">
+              <input type="email" placeholder="Digite seu e-mail" />
+              <button>Subescrever</button>
+          </div>
+        </div>
+        <!-- end form -->
+        <div class="midias-sociais">
+          <h2>Redes Sociais</h2>
+          <a href="#"> <i class="fa-brands fa-whatsapp"></i>Whatsapp </a>
+          <a href="#"> <i class="fa-brands fa-facebook"></i>Facebook </a>
+          <a href="#"> <i class="fa-brands fa-instagram"></i>Instagram </a>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      Gestão Leiteira &copy; 2022
+    </div>
+  </footer>
+</body>
+</html>
